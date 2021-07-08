@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <style>
+        div {
+            overflow: hidden;
+            min-height: 100%;
+        }
         body {
-            background-color: powderblue;
+            overflow: auto;
         }
     </style>
 </head>
 
 <body>
-    <iframe src="menu.pdf" style="height:100%; ">
-    </iframe>
+    <div>
+        <iframe src="menu.pdf#toolbar=0&navpanes=0&scrollbar=0" width="100%" height="100%" style="position: fixed;">
+    </div>
 </body>
-
 </html>
